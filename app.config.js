@@ -2,7 +2,7 @@ import 'dotenv/config';
 
 export default {
   expo: {
-    name: "EnterGYM",
+    name: "Muscle Garage",
     slug: "entergym",
     scheme: "entergym",
     version: "1.0.0",
@@ -30,6 +30,7 @@ export default {
 
     plugins: [
       "expo-dev-client",
+      "expo-image",
       [
         "expo-splash-screen",
         {
